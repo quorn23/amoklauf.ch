@@ -1,16 +1,22 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
-Contact: mailto:soup@r4tio.dev
-Contact: https://matrix.to/#/@soup:matrix.r4tio.dev
-Encryption: https://r4tio.dev/.well-known/pub-key.txt
+Contact: mailto:gabe@gabe.gabe
+Encryption: https://amoklauf.ch/.well-known/pub-key.txt
 Encryption: openpgp4fpr:B3DC55A354602B8AEDCC0632C3F0DB9D1027D650
 Preferred-Languages: en
-Canonical: https://r4tio.dev/.well-known/security.txt
+Canonical: https://https://amoklauf.ch/.well-known/security.txt
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQSz3FWjVGAriu3MBjLD8NudECfWUAUCY4j/EwAKCRDD8NudECfW
-UOvqAP9VBYYRkwJgOopGPYqofnv8jlkUyQzBFsKaX9MypWRiMAD+JHaCTerHjStO
-QzrFhxufcnwURhSpTvprJ2Eg5pvO6gQ=
-=KVoh
+iQGzBAEBCgAdFiEE/QUzyuFOv+pIOhnwzfcBFYJnEoYFAmSYX3EACgkQzfcBFYJn
+EoYefQv6Al9oewKPPDfDHvQiDRevHEoCZ5sw4RIWGhdtr72H11ROmJq2xA5RIPSM
+o1sNfPBopaabU9I/OpqaV/juANSrZ+X8gviYt/AntLkXu/SfL6uAj+gtcdcKNHui
+vXz2B555/9t2mJReq/U+jWYKvDvAg/Ks+hkPS7iyOGdn5m3AQAjR8dQdkAfCyWyB
+uz9AyzSd7ds4QeQ9+PF/s7+1F0tL/z2mn68x2lwmK18TFfakv7oACr5F9rAfgQ+9
+I4mfWObiMkl66xmYJymDlOy8h+rXRpgsd+/eHkvxfhW/KF0WNOYY20VA09VvjZv6
+LDELL72RAlPBEJ7jzoRq3AnXBiJNnSmurnFdnq4ylirjlyjVOLZG0UdiQSIjKe2b
+6y2fmgHYoObTRV1oZLek4tgVD08FaNCHcpLXdX3y3OvY3bwztGuKiCqRJWBKRTbM
+1VIZ7Bpic+gDBwvfACK85SCq9HbAZ2MQji4TS5v+p65I26AtgYbyXJsKsxU6IhVj
+6Y7ZJ2SI
+=dkTb
 -----END PGP SIGNATURE-----
