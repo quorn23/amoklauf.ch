@@ -43,7 +43,7 @@ params:
 
   label:
     text: "amoklauf.ch"
-    icon: "logo.png"
+    icon: "/images/logo.png"
 
   profileMode:
     enabled: true # needs to be explicitly set
