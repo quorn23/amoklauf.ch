@@ -1,0 +1,145 @@
+baseURL: "https://amoklauf.ch"
+title: amoklauf.ch - Swiss army knife around self hosting
+theme: WonderMod
+copyright: "[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+enableRobotsTXT: true
+enableGitInfo: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  author: Gabe # ["Me", "You"] # multiple authors
+  title: "amoklauf.ch"
+  description: Swiss army knife around self hosting
+  keywords: [Docker, Proxmox, Synology, Selfhosting, Privacy, Security]
+  DateFormat: "January 2, 2006"
+  images: ["/images/logo.png"]
+  defaultTheme: dark # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: false
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+
+  label:
+    text: "amoklauf.ch"
+    icon: "logo.png"
+
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: amoklauf.ch
+    subtitle: "Swiss army knife around self hosting."
+    buttons:
+      - name: Categories
+        url: posts
+      - name: About
+        url: about
+
+  socialIcons:
+    - name: discord
+      url: "https://discord.com/invite/4K2kdvwzFh"
+    - name: github
+      url: "https://github.com/quorn23"
+    - name: rss
+      url: /index.xml
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  editPost:
+    URL: "https://github.com/quorn23/amoklauf.ch/tree/master/content"
+    Text: "Source code" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "summary"]
+
+#Enabling Search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+markup:
+  highlight:
+    style: dracula
+    lineNos: false
+    noClasses: false
+    guessSyntax: true
+
+menu:
+  main:
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 10
+    - identifier: Posts
+      name: Categories
+      url: /posts/
+      weight: 20
+    - identifier: Search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: Hastebin
+      name: Logs
+      url: https://logs.notifiarr.com
+      weight: 35
+    - identifier: Upload
+      name: Upload
+      url: https://send.r4tio.dev
+      weight: 40
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    disable: true
+    respectDoNotTrack: true
+    useSessionStorage: false
+  instagram:
+    disable: true
+    simple: false
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: false
+  vimeo:
+    disable: false
+    enableDNT: true
+    simple: false
+  youtube:
+    disable: true
+    privacyEnhanced: true

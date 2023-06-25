@@ -1,2 +1,1 @@
 # amoklauf.ch
-amoklauf.ch
