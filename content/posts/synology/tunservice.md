@@ -7,7 +7,7 @@ tags: ['synology', 'vpn', 'wireguard', 'tun']
 ## DSM 7
 Grab the tunnel service
 ``` bash
-sudo curl -sL https://raw.githubusercontent.com/TRaSH-/Guides-Synology-Templates/main/script/tun.service -o "/etc/systemd/system/tun.service"
+sudo curl -sL https://raw.githubusercontent.com/TRaSH-Guides/Synology-Templates/main/script/tun.service -o "/etc/systemd/system/tun.service"
 ```
 Enable the service
 ``` bash
