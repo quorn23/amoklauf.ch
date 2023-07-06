@@ -61,5 +61,6 @@ umount $MOUNT_POINT
 exit 0
 ```
 
-* edit `NFS_SERVER` `NFS_SHARE` `MOUNT_POINT` 
-* edit `-mtime +180` in case you want to change how many days the backups are kept, depending on the DSM version it's a rather small file, adapt to your needs.
+edit `NFS_SERVER` `NFS_SHARE` `MOUNT_POINT` to your needs\
+edit `-mtime +180` in case you want to change how many days the backups are kept, depending on the DSM version it's a rather small file, adapt to your needs.\
+Add the scripts to your Task Scheduler in DSM, run as root and a schedule of your choice.
