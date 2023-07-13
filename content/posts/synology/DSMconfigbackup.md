@@ -6,8 +6,9 @@ tags: ['synology', 'DSM', 'backup']
 ---
 Synology doesn't allow you to backup the DSM config in an automated way, besides via the Synology Account. This gets saved god knows who and is just "automated", without any possibility to set a schedule. I don't like this limited out of the box option, so here is a script i added to my CMS to push out to my Synos. Tested on DSM6 and DSM7 devices. In my case it uses a NFS Share, but should be easily adaptable to a CIFS share for example.
 
->*PSA: I keep my backup drives genearlly unmounted if not in use, as a small layer of extra security in case of File Encryption Malware and sorts*
-
+{{< tip title="PSA" >}}
+SA: I keep my backup drives genearlly unmounted if not in use, as a small layer of extra security in case of File Encryption Malware and sorts*
+{{< /tip >}}
 The script will mount the backup share, checks it, then starts the backup and finally unmounts it again.  
 ```
 #!/bin/bash
