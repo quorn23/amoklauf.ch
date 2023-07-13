@@ -23,17 +23,17 @@
 }
 
 .note {
-    border-color: olive;
+    border-color: green;
 }
 
 .note .title {
-    color: olive;
-    border-color: olive;
+    color: green;
+    border-color: green;
 }
 
 .tip {
     border-color: blue;
-    background-color: #f6fcff;
+/*    background-color: #f6fcff; */
 }
 
 .tip .title {
@@ -43,7 +43,7 @@
 
 .warning {
     border-color: orange;
-    background-color: #fffeec;
+/*    background-color: #fffeec; */
 }
 
 .warning .title {
@@ -53,7 +53,7 @@
 
 .important {
     border-color: red;
-    background-color: #fffbfb;
+/*    background-color: #fffbfb; */
 }
 
 .important .title {
