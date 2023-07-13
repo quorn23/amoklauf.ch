@@ -41,7 +41,8 @@ If you want to specify the piece size for the torrent, you can use the `-l` swit
 - 2<sup>24</sup> = 16,777,216 = 16384 KiB (for file sizes between 16 GiB - 512 GiB) (This is the max you should ever have to use.)
 - 2<sup>25</sup> = 33,554,432 = 32768 KiB (Note that uTorrent versions before 3.x CANNOT load torrents with this or higher piece size)
 
-!!! example
+{{< note title="Example:" >}}
 ``` bash
 mktorrent -v -p -l 19 -a http://exampletracker.com/announce -o filename.torrent folder_name
 ```
+{{< /note >}}
