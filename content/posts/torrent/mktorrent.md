@@ -26,7 +26,7 @@ cd ~/torrents/completed
 Then type the following command:
 
 ``` bash
-mktorrent -v -p -a http://tracker.exampletracker.com:34000/xxxXXXxxx/announce -o VA-Summer_Trance_2009.torrent "Linux Iso directory"
+mktorrent -v -p -a http://tracker.exampletracker.com:34000/xxxXXXxxx/announce -o LinuxIso.torrent "Linux Iso directory"
 ```
 
 Please note that you must use quotes if the target directory name contains spaces.
