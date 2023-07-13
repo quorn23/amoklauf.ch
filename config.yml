@@ -97,6 +97,9 @@ markup:
     lineNos: false
     noClasses: false
     guessSyntax: true
+  goldmark:
+    renderer:
+      unsafe: true
 
 menu:
   main:
