@@ -17,9 +17,7 @@ Run the service
 ``` bash
 sudo systemctl start tun
 ```
-``` bash
 Check if running with
-```
 ``` bash
 sudo systemctl status tun
 ```
