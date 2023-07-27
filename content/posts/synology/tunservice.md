@@ -22,10 +22,12 @@ Check if running with
 sudo systemctl status tun
 ```
 Will look something like this:
+``` bash
 `tun.service - Run tun at startup
    Loaded: loaded (/etc/systemd/system/tun.service; enabled; vendor preset: disabled)
    Active: inactive (dead) since Sat 2023-06-24 15:06:27 CEST; 1 months 2 days ago
  Main PID: 10931 (code=exited, status=0/SUCCESS)`
+```
 As the service does a simple task it will execute and quit, it won't stay active.
 
 Finish it up with
