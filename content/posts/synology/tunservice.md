@@ -28,8 +28,9 @@ tun.service - Run tun at startup
    Active: inactive (dead) since Sat 2023-06-24 15:06:27 CEST; 1 months 2 days ago
  Main PID: 10931 (code=exited, status=0/SUCCESS)
 ```
+{{< warning title="Attention:" >}}
 As the service does a simple task it will execute and quit, it won't stay active.
-
+{{< /warning >}}
 Finish it up with
 ``` bash
 sudo docker-compose up --force-recreate NAMEOFCONTAINERWITHVPN
