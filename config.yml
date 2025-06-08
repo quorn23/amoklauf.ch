@@ -54,6 +54,8 @@ params:
         url: posts
       - name: About
         url: about
+      - name: Icons
+        url: img
 
   socialIcons:
     - name: discord
@@ -119,9 +121,9 @@ menu:
       name: Logs
       url: https://logs.notifiarr.com
       weight: 35
-    - identifier: Upload
-      name: Upload
-      url: https://send.r4tio.dev
+    - identifier: Icons
+      name: Icons
+      url: https://amoklauf.ch/img
       weight: 40
 
 privacy:
